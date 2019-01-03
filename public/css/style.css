@@ -9511,5 +9511,44 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.fond1 {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("./../../images/banner1.jpg");
+  height: 1200px;
+}
+
+.borderi {
+  border-image: url("../../images/bottom_decoration_img.png") 30;
+}
+
+.fond2 {
+  background-image: url("../../images/main_bg.jpg");
+  height: 700px;
+}
+
+.fondb {
+  background-color: white;
+  height: 600px;
+  background-image: url("../../images/box-left-top.png");
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.fondc {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.fondd {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.fondf {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 
 /*# sourceMappingURL=style.css.map */
