@@ -9513,21 +9513,23 @@ h3 {
 }
 .fond1 {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("./../../images/banner1.jpg");
-  height: 1200px;
+  background-size: cover;
 }
 
 .borderi {
-  border-image: url("../../images/bottom_decoration_img.png") 30;
+  background-image: url("../../images/bottom_decoration_img.png");
+  margin-top: 20%;
+  height: 15px;
 }
 
 .fond2 {
   background-image: url("../../images/main_bg.jpg");
-  height: 700px;
+  height: 1400px;
 }
 
 .fondb {
   background-color: white;
-  height: 600px;
+  height: 1300px;
   background-image: url("../../images/box-left-top.png");
   background-repeat: no-repeat;
   position: relative;
@@ -9549,6 +9551,81 @@ h3 {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+.textc {
+  text-transform: uppercase;
+  font-size: 70px;
+}
+
+.textc2 {
+  text-transform: uppercase;
+  font-size: 70px;
+  color: #be203a;
+}
+
+.fs {
+  font-family: "Courgette", cursive;
+  font-size: 50px;
+  margin-top: 10%;
+}
+
+.fs2 {
+  font-size: 75px;
+}
+
+.btn-1 {
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #e3e3e3;
+}
+
+.btn-2 {
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #bf213a;
+}
+
+.our {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #be203a;
+  font-family: "Courgette", cursive;
+}
+
+.story {
+  font-size: 35px;
+  font-family: "Courgette", cursive;
+}
+
+.our2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #be203a;
+  font-family: "Courgette", cursive;
+}
+
+.menul {
+  font-size: 35px;
+  font-family: "Courgette", cursive;
+}
+
+.cour {
+  font-family: "Courgette", cursive;
+}
+
+.ti {
+  width: 26%;
+  border: solid 5px #e9e9e9;
+}
+
+.pol {
+  font-size: 14px;
+}
+
+.fond3 {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("./../../images/team_background.jpg");
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
