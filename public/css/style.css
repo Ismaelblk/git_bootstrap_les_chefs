@@ -9524,13 +9524,11 @@ h3 {
 
 .fond2 {
   background-image: url("../../images/main_bg.jpg");
-  height: 1400px;
 }
 
 .fondb {
   background-color: white;
-  height: 1300px;
-  background-image: url("../../images/box-left-top-grey.png");
+  background-image: url("../../images/box-left-top.png");
   background-repeat: no-repeat;
   position: relative;
 }
@@ -9626,7 +9624,6 @@ h3 {
 .fond3 {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("./../../images/team_background.jpg");
   background-size: cover;
-  height: 630px;
 }
 
 .iii {
@@ -9635,21 +9632,27 @@ h3 {
 
 .form {
   background-image: url("../../images/book_table_bg.jpg");
-  background-size: cover;
-  height: 500px;
-  width: 750px;
+  width: 70%;
+  margin-top: 80px;
+  border-radius: 25px;
+}
+
+.arrondi {
+  border-radius: 10px;
 }
 
 .ti2 {
-  border: solid 10px #e9e9e9;
+  border-radius: 25px;
+  border: solid 5px #e9e9e9;
 }
 
 .fond4 {
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("./../../images/team_background.jpg");
   background-size: cover;
-  height: 400px;
 }
 
+/*     height: 400px
+ * */
 .bs {
   border: solid 5px #e9e9e9;
   width: 100%;
@@ -9662,7 +9665,6 @@ h3 {
 
 .fond5 {
   background-image: url("../../images/main_bg.jpg");
-  height: 650px;
 }
 
 .contact {
@@ -9679,6 +9681,72 @@ h3 {
 hr {
   width: 75%;
   background-color: white;
+}
+
+.fond6 {
+  background: url("./../../images/footer_background.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.couleur-footer {
+  background-color: #be203a;
+  height: 78px;
+}
+
+.bouton-arondis {
+  border-radius: 30px;
+  font-size: 0.9rem;
+}
+
+.btn {
+  font-size: 0.9rem;
+}
+
+.button {
+  margin-top: -130px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.taille-police {
+  font-size: 25px;
+}
+
+.border-footer {
+  background-image: url("../../images/footer_bottom_decoration_img.png");
+  height: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact {
+    width: 100% !important;
+  }
+
+  .form {
+    width: 100% !important;
+  }
+
+  .our2 {
+    font-size: 20px;
+  }
+
+  .menul {
+    font-size: 20px;
+  }
+
+  .navbar-nav {
+    width: 80% !important;
+  }
+
+  .btn-1 {
+    width: 10%;
+    font-size: 10px;
+  }
+
+  .btn-2 {
+    width: 10%;
+    font-size: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
